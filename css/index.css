@@ -1,0 +1,176 @@
+   * {
+        margin: 0;
+        padding: 0;
+       box-sizing: border-box;
+}
+
+body {
+    Font size: 16px;
+    background:  hsl(218, 22%, 67%);
+    
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.wrapper {
+    padding: 0px 30px;
+    width: 700px;
+}
+
+#top {
+    background: #fff;
+    padding: 40px 40px;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+#top h3 {
+    color: hsl(179, 62%, 43%);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#top .bold {
+    color: hsl(65, 70%, 54%);
+    font-weight: 600;
+    font-size: 18px;
+    margin: 20px 0;
+    
+}
+
+#top .text {
+    color: hsl(204, 43%, 70%);
+    line-height: 25px;
+    word-spacing: 4px;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+        
+}
+
+.left {
+    background: hsl(179, 62%, 43%);
+    padding: 40px;
+    color: aliceblue;
+    line-height: 2rem;
+}
+
+.left h3 {
+    margin-bottom: 20px;
+}
+
+p .price {
+    font-size: 20pt;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+p sup {
+    color: hsl(202, 43%, 83%);
+    font-size: 16px;
+}
+
+.left > .text {
+    color: hsl(204, 43%, 83%);
+}
+
+.left > .text > span {
+    font-weight: bold;
+}
+
+button {
+    outline: none;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 16pt;
+    background: hsl(71, 73%, 54%);
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px hsl(204, 203%, 23%);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.right {
+    background: hsl(179, 62%, 48%);
+    padding: 40px;
+    color: aliceblue;
+    border-radius: 0 0 10px 10px;
+}
+
+.right h3 {
+    margin-bottom: 20px
+}
+
+.right ul {
+    display: inline;
+    line-height: 25px
+}
+
+.right ul li {
+    list-style-type: none;
+    color: hsl(204, 43%, 87%)
+}
+
+@media only screen and (min-width:1000px) {
+
+    
+    #bottom {
+        
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .left {
+        max-width: 350px;
+        border-radius: 0 0 0 10px;
+    }
+    
+    .right {
+        max-width: 350px;
+        border-radius: 0 0 10px;
+    }
+    
+    .wrapper {
+    padding: 30px 50px;
+    width: 650px;
+}
+}
+
+
+
+
+
+- Mobile: 375px
+- Desktop: 1440px
+
+
+--Cyan: hsl(179, 62%, 43%)
+--Bright Yellow: hsl(71, 73%, 54%)
+
+
+--Light Gray: hsl(204, 43%, 93%)
+--Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Cop
+
+- Font size: 16px
+
+### Font
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
